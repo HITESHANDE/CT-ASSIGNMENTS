@@ -26,11 +26,9 @@ public class Account {
 	public void Withdraw(double y) {
 		if (getBalance() == 0.0d) {
 			System.out.println("Insufficient Funds");
-		} else if ((getBalance() - y) >= 0) {
+		} else((getBalance() - y) >= 0) {
 			setBalance(getBalance() - y);
-		} else {
-			System.out.println("you have to maintain minimum balance of 500");
-		}
+		} 	
 	}
 
 	public long getAccNum() {
