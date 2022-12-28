@@ -26,10 +26,12 @@ public class Account {
 	public void Withdraw(double y) {
 		if (getBalance() == 0.0d) {
 			System.out.println("Insufficient Funds");
-		} else((getBalance() - y) >= 0) {
+		} else if((getBalance() - y) >= 0) {
 			setBalance(getBalance() - y);
-		} 	
-	}
+		} else {
+		
+			System.out.println("Insufficient
+		}
 
 	public long getAccNum() {
 		return accNum;
