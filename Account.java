@@ -30,7 +30,7 @@ public class Account {
 			setBalance(getBalance() - y);
 		} else {
 		
-			System.out.println("Insufficient
+			System.out.println("Insufficient Balance");
 		}
 
 	public long getAccNum() {
