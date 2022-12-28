@@ -40,9 +40,14 @@ class CurrentAccount extends Account {
 class Banking {
 	public static void main(String[] args) {
 		person p = new person("raj", 21);
-		Account a = new Account(123, 5000, "Hitesh");
+		Account a = new Account(7425,2000,"Smith");
+		Account a1= new Account(7426,3000,"Kathy");
 		System.out.println(a.getAccNum());
 		System.out.println(p.getName());
+		a.Deposit(2000);
+		a1.Withdraw(2000);
+		System.out.println(a.getBalance());
+		System.out.println(a1.getBalance());
 		SavingsAccount sa = new SavingsAccount(15797, 5000, " hit");
 		sa.Withdraw(1000);
 		System.out.println(sa.getBalance());
