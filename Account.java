@@ -2,14 +2,14 @@ package examples;
 
 public class Account {
 
-	public long accNum;
-	public double balance;
+	private long accNum;
+	private double balance;
 	@Override
 	public String toString() {
 		return "Account [accNum=" + accNum + ", balance=" + balance + ", accHolder=" + accHolder + "]";
 	}
 
-	public String accHolder;
+	private String accHolder;
 
 	public Account(long accNum, double balance, String accHolder) {
 		super();
@@ -65,8 +65,8 @@ class person {
 		this.age = age;
 	}
 
-	public String name;
-	public float age;
+	private String name;
+	private float age;
 
 	// methods//
 	public String getName() {
