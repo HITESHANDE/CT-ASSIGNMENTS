@@ -6,7 +6,7 @@ class SavingsAccount extends Account {
 		// TODO Auto-generated constructor stub
 	}
 
-	final double minbalance = 500;
+        private final double minbalance = 500;
 
 	public void Withdraw(double y) {
 	
@@ -25,7 +25,7 @@ class CurrentAccount extends Account {
 		// TODO Auto-generated constructor stub
 	}
 
-	double overdraftlimit = -150;
+        private double overdraftlimit = -150;
 
 	public void Withdraw(double y) {
 
